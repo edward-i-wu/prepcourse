@@ -1,0 +1,155 @@
+html, body{
+	margin: 0;
+	font-family: Arial;	
+}
+
+input, select, textarea, button{
+	font-family:inherit;
+	font-size: inherit;
+	}
+
+.wrapper{
+	min-height: 6rem; 
+	display: flex; 
+	flex-flow: column nowrap; 
+}
+@media screen and (min-width: 1400px){
+	html{
+		font-size: 20px; 
+	}
+}
+.wrapper>div{
+	width:80%; 
+}
+
+
+
+
+/*styling classes */
+
+.bold{ 
+	font-weight: bolder;
+}
+
+.bolder{
+	text-shadow: .5px 0 #000000;
+	letter-spacing:1.5px;
+}
+
+.boldest{
+	text-shadow: 1.5px 0 #000000;
+	letter-spacing:1.5px;
+}
+
+@media screen and (max-width: 768px){
+		.bolder{text-shadow: .6px 0 #000000;} 
+		.boldest{text-shadow: 1.125px 0 #000000;}
+	}
+@media screen and (max-width: 414px){
+		.bolder{text-shadow: .5px 0 #000000;} 
+		.boldest{text-shadow: .9375px 0 #000000;}
+	}
+	
+	
+
+
+
+.divider{
+	flex-grow: 1;
+	height: 1px; 
+	background-color: black; 
+}
+
+
+
+
+/* style header */
+
+#mheader{  
+	font-size: 1.5rem; 
+	height: 3rem;
+	line-height: 3rem;
+	font-color:#A9A9A9;
+	text-shadow: .5px 0 #696969;
+	color:#696969;
+	font-weight: bold;
+	letter-spacing: .5px; 
+	font-family: "Times New Roman";
+}
+
+#about{	
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-color:#A9A9A9;
+	text-shadow: .5px 0 #696969;
+	font-size: .8rem; 
+	color:#696969;
+	letter-spacing: .5px; 
+	font-family: "Times New Roman";
+}
+
+
+.borderT{ 
+	border-top: 1px solid black;
+}
+
+.borderTblue{ 
+	border-top: 1px solid #1F45FC;
+	
+}
+
+
+.ValignC{
+	align-items: center; 
+	align-self: center;
+}
+.textHalignC{
+	text-align: center; 
+}
+
+.HalignC{
+	align-self: center; 
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right; 
+}
+.content{
+	font-size: .8em; 
+}
+.firstItemPad{
+	padding-top: .6em; 
+}
+.nextSectionPad{
+	padding-top: 1.2em;
+}
+.italic{
+	font-style:italic;
+}
+.relative{
+	position:relative;
+}
+.absoluteL{
+	position:absolute;
+	left:0px;
+}
+
+.absoluteR{
+	position:absolute;
+	right:0px;
+}
+/* hide the dots between tests and dates */
+.zbehind{
+	z-index: -1;
+	white-space: nowrap;
+}
+.padB{
+	padding-bottom: 3px; 
+	background:white;
+}
+ul{
+	margin-top: .15em; 
+}
+
