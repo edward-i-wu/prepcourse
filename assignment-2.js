@@ -12,6 +12,10 @@ and then print and concat additional "#" symbols in the body of the loop. The lo
 
 //challenge 2
 
+/* if the parameter was a number type, returns true if the number mod 2 is equal to zero, and false otherwise. If the parameter ss not a number 
+	it will notify you of that in the console
+ */
+
 function isEven(number){
 	if(typeof(number) === "number"){
 		return number%2===0;
@@ -19,6 +23,3 @@ function isEven(number){
 	console.log("please input a number"); 
 } 
 
-console.log(isEven(3)); 
-console.log(isEven(26));
-console.log(isEven("YEET"));  
